@@ -20,5 +20,13 @@ public class Main {
         klasa3a.dodajUczniaDoKlasy(uczen2);
         klasa3a.dodajUczniaDoKlasy(uczen3);
         System.out.println(klasa3a);
+
+         Szkola zs10 = Szkola.getSzkola();
+         //metoda szkola jest statyczna dlatego wywoluje sie ja dla klasy
+/*
+        zs10.dodajUczniaDoSzkoly("Nig","ger");
+        zs10.dodajKlase(klasa3a);
+        System.out.println(zs10);
+        */
     }
 }
