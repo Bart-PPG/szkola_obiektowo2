@@ -1,5 +1,8 @@
 import java.util.ArrayList;
 
+/**
+ * Klasa reprezentuje
+ */
 public class Klasa {
     private String nazwaklasy;
     private ArrayList<Uczen> uczniowie;
@@ -9,7 +12,7 @@ public class Klasa {
         this.nazwaklasy = nazwaklasy;
         uczniowie = new ArrayList<>();
     }
-
+    //-*/
     public Klasa(String nazwaklasy, Nauczyciel wychowawca) {
         this.nazwaklasy = nazwaklasy;
         this.wychowawca = wychowawca;
